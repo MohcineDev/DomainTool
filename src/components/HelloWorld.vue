@@ -181,6 +181,30 @@ const popularCities = [
   "Mbabane",
   "Lobamba",
 ];
+
+const topTouristCities = [
+  "Bangkok",
+  "Paris",
+  "London",
+  "Dubai",
+  "Singapore",
+  "New York",
+  "Kuala Lumpur",
+  "Istanbul",
+  "Tokyo",
+  "Seoul",
+  "Hong Kong",
+  "Barcelona",
+  "Los Angeles",
+  "Rome",
+  "Osaka",
+  "Las Vegas",
+  "Amsterdam",
+  "Milan",
+  "Miami",
+  "Vienna",
+];
+
 let keyword = ref("");
 let names = ref([]);
 let tld = ref("com");
@@ -189,37 +213,48 @@ let atTheEnd = ref(false);
 function generateNames() {
   names.value = [];
   console.log(tld.value);
-  for (let i = 0; i < popularCities.length; i++) {
+  for (let i = 0; i < topTouristCities.length; i++) {
     let domainName = "";
     ///upper the first letter of the keyword
-    let upperFirstLetter =keyword.value[0].toUpperCase() +keyword.value.slice(1)
+    let upperFirstLetter =
+      keyword.value[0].toUpperCase() + keyword.value.slice(1);
     ///add the keyword at the end of the generated domain name
     if (atTheEnd.value) {
-      domainName += popularCities[i] + upperFirstLetter;
-    } else domainName += upperFirstLetter + popularCities[i];
+      domainName += topTouristCities[i] + upperFirstLetter;
+    } else domainName += upperFirstLetter + topTouristCities[i];
 
     names.value.push(domainName.replaceAll(" ", ""));
   }
+  getWhois(names[0])
+}
+
+async function getWhois(name) {
+  await fetch("https://api.api-ninjas.com/v1/whois?domain=" + name)
+    .then((res) => res.json())
+    .then((data) => console.log(data));
 }
 </script>
 
 
 <template>
-  <div class="form">
-    <input type="text" v-model="keyword" name="" id="" />
-    <select v-model="tld">
-      <option value="com" selected>com</option>
-      <option value="net">net</option>
-      <option value="org">org</option>
-      <option value="ai">ai</option>
-      <option value="io">io</option>
-    </select>
-    <label for="atTheEnd">
-      <input type="checkbox" id="atTheEnd" v-model="atTheEnd" /> atTheEnd
-    </label>
+  <header>
+    <div class="form">
+      <input type="text" v-model="keyword" name="" id="" />
+      <select v-model="tld">
+        <option value="com" selected>com</option>
+        <option value="net">net</option>
+        <option value="org">org</option>
+        <option value="ai">ai</option>
+        <option value="io">io</option>
+      </select>
+      <label for="atTheEnd">
+        <input type="checkbox" id="atTheEnd" v-model="atTheEnd" /> atTheEnd
+      </label>
 
-    <button @click="generateNames">Submit</button>
-  </div>
+      <button @click="generateNames">Submit</button>
+    </div>
+  </header>
+
   <ul v-if="names.length > 1">
     <NameCard
       v-for="(name, index) in names"
@@ -234,6 +269,26 @@ function generateNames() {
 </template>
   
 <style scoped>
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem;
+  border-radius: 14px;
+}
+label {
+  line-height: normal;
+}
+header input[type="text"],
+header select,
+header label,
+header button,
+span {
+  background: #fff;
+  color: var(--color-background);
+  border-color: var(--color-background);
+  border: 1px solid var(--vt-c-indigo);
+}
 ul {
   padding: 0;
   display: grid;
@@ -243,6 +298,11 @@ ul {
   display: flex;
   justify-content: center;
   padding: 10px;
+  align-items: center;
+  background: #fff;
+  height: 150px;
+  box-shadow: 0 0 5px #fff;
+  border-radius: 10px;
 }
 label,
 input[type="text"],
@@ -255,7 +315,12 @@ button {
   border: 1px solid var(--vt-c-indigo);
   margin: 0 5px;
   border-radius: 5px;
-  cursor: pointer;
   outline: none;
+}
+
+label,
+select,
+button {
+  cursor: pointer;
 }
 </style>
