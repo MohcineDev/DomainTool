@@ -5,10 +5,9 @@ import HelloWorld from "./components/HelloWorld.vue";
 </script>
 
 <template>
-    <HelloWorld />
+  <HelloWorld />
 
   <RouterView />
 </template>
 
-<style scoped>
-</style>
+<style scoped></style>

@@ -1,0 +1,192 @@
+<template>
+    <table>
+        <tr>
+            <th>name</th>
+            <th>DN</th>
+            <th>d</th>
+            <th>tld taken</th>
+        </tr>
+        <tr>
+            <td class="ex">brightmarketingstrategy</td>
+            <td>463</td>
+            <td rowspan="55">31/5</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td class="ex">UnitedCleaningCompany</td>
+            <td>489</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td class="ex">KetoDietSystem</td>
+            <td>1,218</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td class="ex">HomeCenterStores</td>
+            <td>1,198</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td class="ex">PodcastAgency.net</td>
+            <td>635</td>
+            <td>15</td>
+        </tr>
+        <tr>
+            <td class="ex">LoadPrompt</td>
+            <td>599</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td class="ex">ifcdex</td>
+            <td>1,939</td>
+            <td>21</td>
+        </tr>
+        <tr>
+            <td class="ex">airpodscases</td>
+            <td class="r">2,565</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>driftvibes</td>
+            <td>2,581</td>
+        </tr>
+        <tr>
+            <td class="ex">SlimPlusKeto</td>
+            <td>$2,565</td>
+            <td>5</td>
+        </tr>
+
+        <tr>
+            <td>MobileVMS</td>
+            <td>3,265</td>
+        </tr>
+        <tr>
+            <td>profacades</td>
+            <td>3,258</td>
+        </tr>
+        <tr>
+            <td>ThaiBulls
+            </td>
+            <td>3,265</td>
+        </tr>
+        <tr>
+            <td>admow</td>
+            <td>1,944</td>
+        </tr>
+        <tr>
+            <td>DgBeats</td>
+            <td>1,933</td>
+        </tr>
+        <tr>
+            <td>eczemasoap</td>
+            <td>1,913</td>
+        </tr>
+        <tr>
+            <td class="ex">flsurf</td>
+            <td>1,278</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>dubaidemolition</td>
+            <td>555</td>
+        </tr>
+        <tr>
+            <td>btasi</td>
+            <td>1,944</td>
+        </tr>
+        <tr>
+            <td>miamihomedeveloper</td>
+            <td>524</td>
+        </tr>
+        <tr>
+            <td>IndusOverseas</td>
+            <td>2,556</td>
+        </tr>
+        <tr>
+            <td>richardcknight</td>
+            <td>565</td>
+        </tr>
+        <tr>
+            <td>hausercello</td>
+            <td>2,392</td>
+        </tr>
+        <tr>
+            <td>nsblc</td>
+            <td>1,944</td>
+        </tr>
+        <tr>
+            <td>dmsksa</td>
+            <td>625</td>
+        </tr>
+        <tr>
+            <td>jscsf</td>
+            <td>3,973</td>
+        </tr>
+        <tr>
+            <td>InnovationTechnologyHub</td>
+            <td>3,122</td>
+        </tr>
+        <tr>
+            <td>PodcastAgency.net</td>
+            <td>635</td>
+        </tr>
+        <tr>
+            <td>vcedev</td>
+        <td>1,278</td>
+        </tr>
+        <tr>
+            <td>geteforte</td>
+            <td class="r">9,709</td>
+        </tr>
+        <tr>
+            <td>SellMyPorsche</td>
+            <td>4,610</td>
+        </tr>
+        <tr>
+            <td>simbainfo</td>
+            <td>1,259</td>
+        </tr>
+        <tr>
+            <td>mediacreationtool</td>
+            <td>1,188</td>
+        </tr>
+        <tr>
+            <td>EuroMaghreb</td>
+            <td>2,573</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+</template>
+
+<style scoped>
+table {
+    border-collapse: collapse;
+}
+table,
+tr,
+th,
+td {
+    border: 1px solid #eee;
+    padding: 5px;
+}
+
+.ex {
+    background-color: rgb(75, 29, 85);
+}
+
+.r {
+    background-color: rgb(35, 85, 29);
+}
+</style>
