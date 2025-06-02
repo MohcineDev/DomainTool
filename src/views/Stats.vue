@@ -49,26 +49,25 @@
         </tr>
         <tr>
             <td>driftvibes</td>
-            <td>2,581</td>
+            <td class="r">2,581</td>
         </tr>
         <tr>
             <td class="ex">SlimPlusKeto</td>
-            <td>$2,565</td>
+            <td class="r">2,565</td>
             <td>5</td>
         </tr>
 
         <tr>
             <td>MobileVMS</td>
-            <td>3,265</td>
+            <td class="r">3,265</td>
         </tr>
         <tr>
-            <td>profacades</td>
-            <td>3,258</td>
+            <td class="ex">profacades</td>
+            <td class="r">3,258</td>
         </tr>
         <tr>
-            <td>ThaiBulls
-            </td>
-            <td>3,265</td>
+            <td>ThaiBulls</td>
+            <td class="r">3,265</td>
         </tr>
         <tr>
             <td>admow</td>
@@ -101,7 +100,7 @@
         </tr>
         <tr>
             <td>IndusOverseas</td>
-            <td>2,556</td>
+            <td class="r">2,556</td>
         </tr>
         <tr>
             <td>richardcknight</td>
@@ -121,11 +120,11 @@
         </tr>
         <tr>
             <td>jscsf</td>
-            <td>3,973</td>
+            <td class="r">3,973</td>
         </tr>
         <tr>
             <td>InnovationTechnologyHub</td>
-            <td>3,122</td>
+            <td class="r">3,122</td>
         </tr>
         <tr>
             <td>PodcastAgency.net</td>
@@ -133,7 +132,7 @@
         </tr>
         <tr>
             <td>vcedev</td>
-        <td>1,278</td>
+            <td>1,278</td>
         </tr>
         <tr>
             <td>geteforte</td>
@@ -141,7 +140,7 @@
         </tr>
         <tr>
             <td>SellMyPorsche</td>
-            <td>4,610</td>
+            <td class="r">4,610</td>
         </tr>
         <tr>
             <td>simbainfo</td>
@@ -153,7 +152,7 @@
         </tr>
         <tr>
             <td>EuroMaghreb</td>
-            <td>2,573</td>
+            <td class="r">2,573</td>
         </tr>
         <tr>
             <td></td>
@@ -174,6 +173,7 @@
 table {
     border-collapse: collapse;
 }
+
 table,
 tr,
 th,
@@ -181,12 +181,14 @@ td {
     border: 1px solid #eee;
     padding: 5px;
 }
-
+td:not(td:first-child){
+    text-align: center;
+}
 .ex {
-    background-color: rgb(75, 29, 85);
+    background-color: rgb(57, 20, 66);
 }
 
 .r {
-    background-color: rgb(35, 85, 29);
+    background-color: rgb(25, 72, 20);
 }
 </style>

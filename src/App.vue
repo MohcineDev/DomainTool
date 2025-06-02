@@ -5,9 +5,18 @@ import HelloWorld from "./components/HelloWorld.vue";
 </script>
 
 <template>
-  <HelloWorld />
+  <div class="container">
 
-  <RouterView />
+    <HelloWorld />
+    
+    <RouterView />
+  </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+.container{
+  max-width: 1200px;
+  margin: auto;
+  padding: 10px;
+}
+</style>
