@@ -10,38 +10,40 @@
                 <th>reg</th>
             </tr>
             <tr>
-                <td class="ex">brightmarketingstrategy</td>
+                <td class="ex">
+                    <s>brightmarketingstrategy</s>
+                </td>
                 <td>463</td>
                 <td rowspan="55">31/5</td>
                 <td>1</td>
                 <td>dy</td>
             </tr>
             <tr>
-                <td class="ex">UnitedCleaningCompany</td>
+                <td class="ex"><s>UnitedCleaningCompany</s></td>
                 <td>489</td>
                 <td>1</td>
                 <td>dy</td>
             </tr>
             <tr>
-                <td class="ex">KetoDietSystem</td>
+                <td class="ex"><s>KetoDietSystem</s></td>
                 <td>1,218</td>
                 <td>2</td>
                 <td>dy</td>
             </tr>
             <tr>
-                <td class="ex">HomeCenterStores</td>
+                <td class="ex"><s>HomeCenterStores</s></td>
                 <td>1,198</td>
                 <td>2</td>
                 <td>dy</td>
             </tr>
             <tr>
-                <td class="ex">PodcastAgency.net</td>
+                <td class="ex"><s>PodcastAgency</s></td>
                 <td>635</td>
                 <td>15</td>
                 <td>dy</td>
             </tr>
             <tr>
-                <td class="ex">LoadPrompt</td>
+                <td class="ex"><s>LoadPrompt</s> </td>
                 <td>599</td>
                 <td>1</td>
                 <td>dy</td>
@@ -148,10 +150,13 @@
             <tr>
                 <td>geteforte</td>
                 <td class="r">9,709</td>
+                <td>13</td>
+                <td></td>
             </tr>
             <tr>
                 <td>SellMyPorsche</td>
                 <td class="r">4,610</td>
+                <td>7</td>
             </tr>
             <tr>
                 <td>simbainfo</td>
@@ -164,6 +169,7 @@
             <tr>
                 <td>EuroMaghreb</td>
                 <td class="r">2,573</td>
+                <td>4</td>
             </tr>
             <tr>
                 <td></td>
