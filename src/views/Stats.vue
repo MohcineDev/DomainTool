@@ -67,7 +67,7 @@
             <tr>
                 <td class="ex">SlimPlusKeto</td>
                 <td class="r">2,565</td>
-                <td>5</td>
+                <td>4</td>
             </tr>
 
             <tr>
@@ -122,6 +122,7 @@
             <tr>
                 <td class="ex">hausercello</td>
                 <td>2,392</td>
+                <td>3</td>
             </tr>
             <tr>
                 <td class="ex">nsblc</td>
@@ -140,7 +141,7 @@
                 <td class="r">3,122</td>
             </tr>
             <tr>
-                <td>PodcastAgency.net</td>
+                <td class="ex">PodcastAgency</td>
                 <td>635</td>
             </tr>
             <tr>
