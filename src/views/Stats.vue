@@ -18,49 +18,57 @@
                 <td rowspan="55">31/5</td>
                 <td>1</td>
                 <td>dy</td>
+                <td></td>
             </tr>
             <tr>
                 <td class="ex"><s>UnitedCleaningCompany</s></td>
                 <td>489</td>
                 <td>1</td>
                 <td>dy</td>
+                <td></td>
             </tr>
             <tr>
                 <td class="ex"><s>KetoDietSystem</s></td>
                 <td>1,218</td>
                 <td>2</td>
                 <td>dy</td>
+                <td></td>
+
             </tr>
             <tr>
                 <td class="ex"><s>HomeCenterStores</s></td>
                 <td>1,198</td>
                 <td>2</td>
                 <td>dy</td>
+                <td></td>
             </tr>
             <tr>
                 <td class="ex"><s>PodcastAgency</s></td>
                 <td>635</td>
                 <td>15</td>
                 <td>dy</td>
+                <td></td>
             </tr>
             <tr>
                 <td class="ex"><s>LoadPrompt</s> </td>
                 <td>599</td>
                 <td>1</td>
                 <td>dy</td>
+                <td></td>
             </tr>
             <tr>
                 <td class="ex">ifcdex</td>
                 <td>1,939</td>
                 <td>21</td>
                 <td>dy</td>
+                <td></td>
             </tr>
             <tr>
                 <td class="ex">airpodscases</td>
                 <td class="r">2,565</td>
                 <td>5</td>
                 <td>dy</td>
-                <td>+</td>
+                <td></td>
             </tr>
             <tr>
                 <td>driftvibes</td>
