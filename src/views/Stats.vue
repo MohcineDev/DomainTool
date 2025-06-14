@@ -8,6 +8,7 @@
                 <th>d</th>
                 <th>tld taken</th>
                 <th>reg</th>
+                <th>r</th>
             </tr>
             <tr>
                 <td class="ex">
@@ -59,6 +60,7 @@
                 <td class="r">2,565</td>
                 <td>5</td>
                 <td>dy</td>
+                <td>+</td>
             </tr>
             <tr>
                 <td>driftvibes</td>
