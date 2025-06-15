@@ -11,7 +11,7 @@
                 <th>r</th>
             </tr>
             <tr>
-                <td class="ex">
+                <td class="ex d">
                     <s>brightmarketingstrategy</s>
                 </td>
                 <td>463</td>
@@ -21,14 +21,14 @@
                 <td></td>
             </tr>
             <tr>
-                <td class="ex"><s>UnitedCleaningCompany</s></td>
+                <td class="ex d"><s>UnitedCleaningCompany</s></td>
                 <td>489</td>
                 <td>1</td>
                 <td>dy</td>
                 <td></td>
             </tr>
             <tr>
-                <td class="ex"><s>KetoDietSystem</s></td>
+                <td class="ex d"><s>KetoDietSystem</s></td>
                 <td>1,218</td>
                 <td>2</td>
                 <td>dy</td>
@@ -234,6 +234,10 @@ td {
 
 .ex {
     background-color: rgb(57, 20, 66);
+}
+.d{
+    background-color:crimson;
+
 }
 
 .r {
